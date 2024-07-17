@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-    <h1>김동인</h1>
+    <!-- thymeleaf 템플릿 엔진의 표현식 -->
+    <h1 th:text="${student.name}"></h1>
+    <h1 th:text="${student.age}"></h1>
 </body>
 </html>

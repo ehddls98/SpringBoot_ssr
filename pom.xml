@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.6</version> <!-- SpringBoot 버전을 쓰면 dependencies의 버전을 자동으로 맞춰줌 -->
+		<version>2.6.6</version> <!-- SpringBoot 버전을 쓰면 dependency들의 버전을 호환되는 버전으로 자동으로 맞춰줌 -->
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.study</groupId>
